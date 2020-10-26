@@ -1,0 +1,67 @@
+body
+{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 20px;
+    background: #262626;
+}
+img
+{
+    border-radius: 150%;
+    height: 200px;
+    width: 200px;
+    
+}
+header
+{
+    font-size: 40px;
+}
+h3{
+    font-size: 40px;
+    margin-top: 0px;
+    color: #fff;
+}
+h1
+{
+    font-size: 40px;
+    margin-top: 5px;
+    
+}
+label
+{
+    color: aqua;
+}
+a{
+    color: #6492f6;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+main * 
+{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+input[name="name"]
+{
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px 5px;
+    border-bottom: 3px solid black;
+}
+button
+{
+    margin-top: 25px;
+    background: #8bc34a;
+    color: #fff;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
